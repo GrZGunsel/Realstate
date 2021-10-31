@@ -65,7 +65,7 @@
   .footer .topsection .about p {
     width: 100%;
   }
-  .soldproperty .bottomsection .properties > div {
+  /* .soldproperty .bottomsection .properties > div {
     background: linear-gradient(
       108.99deg,
       rgba(255, 255, 255, 0.0473) 1.09%,
@@ -79,7 +79,7 @@
     background: var(--clr-primary-white);
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.05);
     backdrop-filter: blur(10px);
-  }
+  } */
 }
 
 @media All and (max-width: 600px) {
