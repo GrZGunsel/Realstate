@@ -66,12 +66,12 @@
     width: 100%;
   }
   .soldproperty .bottomsection .properties > div {
-    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(10px);
   }
 
   .recentproperty .bottomsection .properties > div {
-    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(10px);
   }
 }
