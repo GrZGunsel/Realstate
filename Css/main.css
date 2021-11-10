@@ -133,6 +133,8 @@ section {
 .navbar .button {
   display: none;
   margin-left: auto;
+  color: var(--clr--primary);
+  font-size: 16px;
 }
 
 .homepage > div {
