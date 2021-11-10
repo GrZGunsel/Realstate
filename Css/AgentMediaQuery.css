@@ -14,12 +14,16 @@
   .agents .agent_body .agentInfo,
   #Agentabout .about .propertyunder .properties {
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
   }
 }
 @media All and (max-width: 768px) {
   .agents .agent_body .agentInfo,
   #Agentabout .about .propertyunder .properties {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .agent_header > div > * {
+    display: inline-block;
   }
 
   .agent_header .agentinfo {
