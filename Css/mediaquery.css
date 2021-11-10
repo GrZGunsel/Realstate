@@ -51,10 +51,10 @@
   .navbar .navlinks .navlink {
     flex-direction: column;
     position: absolute;
-    background-color: rgb(255, 0, 0);
+    background-color: var(--clr--primary);
     top: 0;
     left: -100%;
-    width: 50%;
+    width: 70%;
     height: 100vh;
     display: flex;
     padding: 20px;
@@ -127,6 +127,9 @@
 }
 
 @media All and (max-width: 600px) {
+  .homepage .hero-image {
+    height: 60vh;
+  }
   h3 {
     font-size: 15px;
   }
