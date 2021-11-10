@@ -14,3 +14,8 @@ const navslide = () => {
   });
 };
 navslide();
+
+function slider1(id) {
+  let image = document.getElementById(id).src;
+  document.getElementById("demo").src = image;
+}

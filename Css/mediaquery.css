@@ -13,7 +13,8 @@
     padding: 4rem 40px;
   }
   #RecentProperty,
-  #SoldProperty {
+  #SoldProperty,
+  #Footer {
     padding: 4rem 40px;
   }
   #Navbar {
@@ -22,28 +23,6 @@
 }
 
 @media All and (max-width: 1024px) {
-  .soldproperty .bottomsection .properties,
-  .recentproperty .bottomsection .properties {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .contact .contactDetails {
-    flex-direction: column;
-    gap: 40px;
-  }
-  .service .service-content {
-    flex-direction: column;
-  }
-  .homepage .hero-image .advanceSearch > div:nth-child(1) {
-    width: 100%;
-  }
-  .homepage .hero-image .advanceSearch > div:nth-child(2) {
-    display: none;
-  }
-}
-
-@media All and (max-width: 768px) {
   .navbar .button {
     display: block;
   }
@@ -89,6 +68,28 @@
   .navbar .navlinks .navlink ul li a {
     color: white;
   }
+  .soldproperty .bottomsection .properties,
+  .recentproperty .bottomsection .properties {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contact .contactDetails {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .service .service-content {
+    flex-direction: column;
+  }
+  .homepage .hero-image .advanceSearch > div:nth-child(1) {
+    width: 100%;
+  }
+  .homepage .hero-image .advanceSearch > div:nth-child(2) {
+    display: none;
+  }
+}
+
+@media All and (max-width: 768px) {
   #Homepage {
     margin-bottom: 30px;
   }
@@ -155,7 +156,8 @@
   }
 
   #RecentProperty,
-  #SoldProperty {
+  #SoldProperty,
+  #Footer {
     padding: 3rem 20px;
   }
   #Navbar {

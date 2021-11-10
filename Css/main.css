@@ -100,7 +100,6 @@ section {
 
 .navbar {
   display: flex;
-
   align-items: center;
 }
 .navbar .navlinks {
@@ -128,6 +127,11 @@ section {
 .navbar .navlinks .profile {
   display: flex;
   gap: 20px;
+}
+.navbar .navlinks ul li .active {
+  font-weight: bold;
+  color: var(--clr-primary-black);
+  border-bottom: 2px solid var(--clr-primary-black);
 }
 
 .navbar .button {
@@ -1114,9 +1118,7 @@ dasdsa */
 }
 
 .agents .agent_header input:focus {
-  border: none;
-  width: 25%;
-  box-shadow: 0px 4px 12px 6px rgba(0, 0, 0, 0.05);
+  width: 35%;
 }
 .agents .agent_body .agentInfo {
   padding: 2rem 0;
@@ -1661,32 +1663,32 @@ Login And Registration  */
   gap: 20px;
 }
 
-#About .about .propertyunder .properties {
+#Agentabout .about .propertyunder .properties {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
 }
 
-#About .about .propertyunder .properties .property {
+#Agentabout .about .propertyunder .properties .property {
   display: flex;
   flex-direction: column;
   box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.05);
   overflow: hidden;
   border-radius: 6px;
 }
-#About .about > p {
-  margin-bottom: 10px;
+#Agentabout .about > p {
+  margin-bottom: 20px;
 }
-#About .about h4 {
-  margin-bottom: 10px;
+#Agentabout .about h4 {
+  margin-bottom: 20px;
 }
 
-#About .about .propertyunder .properties .property .image {
+#Agentabout .about .propertyunder .properties .property .image {
   height: 15rem;
   width: 100%;
   overflow: hidden;
 }
 
-#About .about .propertyunder .properties .property .description {
+#Agentabout .about .propertyunder .properties .property .description {
   padding: 10px;
 }

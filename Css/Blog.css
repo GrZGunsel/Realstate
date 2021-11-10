@@ -13,7 +13,7 @@
   margin-bottom: 20px;
 }
 
-.blogs_header .rightcontainer input {
+.blogs_header input {
   padding: 15px 20px;
   border-radius: 12px;
   width: 200px;
@@ -21,7 +21,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-.blogs_header .rightcontainer input:focus {
+.blogs_header input:focus {
   width: 400px;
 }
 .blog_filter {
@@ -46,7 +46,7 @@
 
 .blogs_posts .blog {
   display: flex;
-  height: 20rem;
+  height: 100%;
   box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.05);
   border-radius: 12px;
   overflow: hidden;
