@@ -50,7 +50,7 @@
 
   .navbar .navlinks .navlink {
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     background-color: var(--clr--primary);
     top: 0;
     left: -100%;
@@ -78,7 +78,7 @@
     left: 0px;
   }
   .navbar .bg-active {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.767);
@@ -129,6 +129,10 @@
 @media All and (max-width: 600px) {
   .homepage .hero-image {
     height: 60vh;
+  }
+  .logo img {
+    height: 40px;
+    width: auto;
   }
   h3 {
     font-size: 15px !important;
