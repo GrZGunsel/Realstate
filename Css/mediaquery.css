@@ -152,6 +152,11 @@
   a {
     font-size: 13px !important;
   }
+
+  input::placeholder {
+    font-size: 14px 1 !important;
+  }
+
   .body > section {
     padding: 3rem 20px;
   }
