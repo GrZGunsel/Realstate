@@ -1,0 +1,20 @@
+@media All and (max-width: 1366px) {
+}
+
+@media All and (max-width: 1024px) {
+  .enquiryform {
+    flex-direction: column;
+  }
+}
+@media All and (max-width: 768px) {
+}
+
+@media All and (max-width: 600px) {
+  .enquiryform .leftcontainer .form,
+  .enquiryform .leftcontainer .RoomNumber .form {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .enquiryform .leftcontainer .button button {
+    width: 100%;
+  }
+}

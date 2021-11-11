@@ -1,0 +1,28 @@
+@media All and (max-width: 1366px) {
+  #form {
+    padding: 4rem 40px;
+  }
+}
+
+@media All and (max-width: 1024px) {
+  .FreeMarketAppraisal .market .form {
+    flex-direction: column;
+  }
+}
+@media All and (max-width: 768px) {
+}
+
+@media All and (max-width: 600px) {
+  #form {
+    padding: 2rem 20px;
+  }
+  .FreeMarketAppraisal .market .form .leftcontainer .personalDetail {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .FreeMarketAppraisal .market .form .leftcontainer .personalDetail h4 {
+    grid-column: 1/2;
+  }
+  .FreeMarketAppraisal .market .form .leftcontainer button {
+    width: 50%;
+  }
+}

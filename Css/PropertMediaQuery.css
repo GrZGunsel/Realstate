@@ -1,0 +1,55 @@
+@media All and (max-width: 1366px) {
+  #property {
+    padding: 4rem 40px;
+  }
+}
+
+@media All and (max-width: 1024px) {
+  #property .propertyDetail {
+    flex-direction: column;
+  }
+  #property .propertyDetail > div:nth-child(1),
+  #property .propertyDetail > div:nth-child(2) {
+    width: 100%;
+  }
+  #property .similarProperties {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #property .similarProperties h4 {
+    grid-column: 1/4;
+  }
+}
+@media All and (max-width: 768px) {
+  #property {
+    padding: 2rem 20px;
+  }
+  #property .similarProperties {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #property .similarProperties h4 {
+    grid-column: 1/3;
+  }
+  .propertyDetail .contactAgent .contactDetails {
+    padding: 20px 0;
+  }
+}
+
+@media All and (max-width: 600px) {
+  .propertyDetail .propertyInfo .propertyDescription .map-area {
+    height: 15rem;
+  }
+  .propertyDetail .propertyInfo .carousel .image {
+    height: 20rem;
+  }
+  .propertyDetail .propertyInfo .carousel .slider {
+    height: 5rem;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  #property .similarProperties {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #property .similarProperties h4 {
+    grid-column: 1/2;
+  }
+}

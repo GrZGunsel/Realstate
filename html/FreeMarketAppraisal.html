@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="../Css/main.css" />
     <link rel="stylesheet" href="../Css/FreeMarketAppraisal.css" />
+    <link rel="stylesheet" href="../Css/FreeMarketMediaQuery.css" />
+    <link rel="stylesheet" href="../Css/mediaquery.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
@@ -19,33 +21,48 @@
     <div class="FreeMarketAppraisal">
       <section id="Navbar">
         <div class="container">
-          <nav class="Navbar">
+          <div class="navbar">
             <div class="logo">
-              <img src="../image/Logo.png" alt="" height="76px" width="auto" />
+              <img src="../image/Logo.png" alt="" />
             </div>
-            <div class="Navlinks">
-              <ul>
-                <li>
-                  <a href="../index.html">Home</a>
-                </li>
-                <li>
-                  <a href="">House and Land</a>
-                </li>
-                <li>
-                  <a href="" class="active">Free Market Appraisal</a>
-                </li>
-                <li>
-                  <a href="">Agents</a>
-                </li>
-                <li>
-                  <a href="">Blogs</a>
-                </li>
-                <li>
-                  <a href="">Enquiry</a>
-                </li>
-              </ul>
+            <div class="navlinks">
+              <div class="navlink">
+                <ul>
+                  <li>
+                    <a href="../index.html" class="active">Home</a>
+                  </li>
+                  <li>
+                    <a href="./Filterpage.html">House and Land</a>
+                  </li>
+                  <li>
+                    <a href="./FreeMarketAppraisal.html"
+                      >Free Market Appraisal</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./Agent.html">Agents</a>
+                  </li>
+                  <li>
+                    <a href="./Blogs.html">Blogs</a>
+                  </li>
+                  <li>
+                    <a href="./Enquiryform.html">Enquiry</a>
+                  </li>
+                </ul>
+                <div class="profile">
+                  <div class="loginauth">
+                    <a href="">Login</a>
+                  </div>
+                  <div class="Registrationauth">
+                    <a href="">Registration</a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </nav>
+            <div class="button">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
         </div>
       </section>
       <section id="form">
@@ -195,6 +212,7 @@
           </div>
         </div>
       </section>
+      <script src="../Js/Main.js"></script>
     </div>
   </body>
 </html>
