@@ -6,7 +6,7 @@
 
 @media All and (max-width: 1024px) {
   .FreeMarketAppraisal .market .form {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 }
 @media All and (max-width: 768px) {
