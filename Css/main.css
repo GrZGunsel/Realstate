@@ -63,7 +63,7 @@ button {
   background-color: transparent;
   padding: 0;
   box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.05);
-  padding: 30px 0;
+  padding: 25px 0;
 }
 #Homepage {
   margin-bottom: 50px;
@@ -126,8 +126,34 @@ section {
 
 .navbar .navlinks .profile {
   display: flex;
+
   gap: 20px;
 }
+
+.navbar .navlinks .profile .loginauth a {
+  background-color: var(--clr--primary);
+  padding: 10px 20px;
+  color: var(--clr-input-color);
+  border-radius: 6px;
+  font-size: 14px;
+}
+.navbar .navlinks .profile .loginauth a:hover {
+  background-color: var(--clr-secondary-black);
+}
+
+.navbar .navlinks .profile .Registrationauth a {
+  outline: 1px solid var(--clr--primary);
+  padding: 10px 20px;
+  color: var(--clr-primary-color);
+  border-radius: 6px;
+  font-size: 14px;
+}
+.navbar .navlinks .profile .Registrationauth a:hover {
+  border: none;
+  background-color: var(--clr-secondary-black);
+  color: var(--clr-primary-white);
+}
+
 .navbar .navlinks ul li .active {
   font-weight: bold;
   color: var(--clr-primary-black);
@@ -1687,7 +1713,16 @@ Login And Registration  */
   width: 100%;
   overflow: hidden;
 }
+.agent_header .properties .propertytype h2 {
+  color: var(--clr-primary-white);
+  font-weight: 400;
+  font-size: 40px;
+}
 
 #Agentabout .about .propertyunder .properties .property .description {
-  padding: 10px;
+  padding: 20px 10px;
+}
+
+#Agentabout .about .propertyunder .properties .property .description > h4 {
+  margin-bottom: 5px;
 }
