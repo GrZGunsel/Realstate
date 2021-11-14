@@ -23,6 +23,27 @@
 }
 
 @media All and (max-width: 768px) {
+  .FilterPage > section {
+    padding: 2rem 20px;
+  }
+  .filter .filterBody .property .content > * {
+    margin-bottom: 10px;
+  }
+
+  .filter .filterBody .property {
+    flex-direction: column;
+  }
+  .filter .filterBody .property .image {
+    width: 100%;
+  }
+  .filter .filterBody .property .content {
+    width: 100%;
+  }
+  .filter .filterContent .advanceFilter .budget input,
+  .filter .filterContent .advanceFilter .noofRoom input {
+    padding: 10px 10px;
+    width: 48%;
+  }
   .filter .filterContent > div:nth-child(odd) {
     position: inherit;
     height: 100%;

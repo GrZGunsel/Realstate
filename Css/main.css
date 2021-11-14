@@ -1026,6 +1026,11 @@ section {
   gap: 10px;
   flex-wrap: wrap;
 }
+.filter .filterContent .advanceFilter .button {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .filter .filterContent .advanceFilter h4 {
   margin-bottom: 20px;
 }
@@ -1081,6 +1086,9 @@ section {
 .filter .filterBody .property .content > * {
   margin-bottom: 15px;
 }
+.filter .filterBody .property .content > *:nth-child(5) {
+  margin: 0;
+}
 .filter .filterBody .property h4 {
   color: var(--clr-primary-black);
 }
@@ -1104,6 +1112,7 @@ section {
 .filter .filterBody .property .content .propertyheader,
 .filter .filterBody .property .content .propertyFooter {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .filter .filterBody .property .content .rooms,
