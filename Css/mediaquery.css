@@ -37,22 +37,19 @@
     width: 80%;
     height: 100vh;
     display: flex;
-
     flex-direction: column;
-    justify-content: space-between;
     z-index: 999;
     align-items: flex-start;
     transition: all 400ms ease-in-out;
+    padding: 20px 3rem;
   }
 
   .navbar .navlinks .navlink .profile {
     width: 100%;
-    padding: 2rem 3rem;
   }
   .navbar .navlinks .navlink ul {
     flex-direction: column;
     align-items: flex-start;
-    padding: 2rem 3rem;
   }
   .navbar .navlinks .navlink ul li .active {
     border-bottom: 1px solid #ffffff;
@@ -178,12 +175,7 @@
   textarea {
     border-radius: 6px !important;
   }
-  .navbar .navlinks .navlink .profile {
-    padding: 10px 20px;
-  }
-  .navbar .navlinks .navlink ul {
-    padding: 10px 20px;
-  }
+
   input::placeholder,
   textarea::placeholder {
     font-size: 12px !important;
