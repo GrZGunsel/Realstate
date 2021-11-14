@@ -31,6 +31,8 @@
   }
   .filter .filterContent > .advanceFilter {
     display: none;
+    position: inherit;
+    height: 100%;
   }
   .filter .searchSection {
     margin-bottom: 20px;
@@ -41,8 +43,6 @@
   }
   .filter .filterContent > .filter-active {
     display: block;
-    position: inherit;
-    height: 100%;
   }
   .filter .filterBody .sort {
     display: none;
