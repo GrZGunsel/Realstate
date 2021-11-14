@@ -1,10 +1,13 @@
 @media All and (max-width: 1366px) {
-}
-
-@media All and (max-width: 1024px) {
   .FilterPage > section {
     padding: 2rem 40px;
   }
+  .filter .filterBody .property .content {
+    padding: 15px 10px;
+  }
+}
+
+@media All and (max-width: 1024px) {
   .searchSection h3 {
     grid-column: 1/4;
   }
