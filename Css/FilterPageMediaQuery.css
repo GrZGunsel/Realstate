@@ -22,5 +22,18 @@
   }
 }
 
-@media All and (max-width: 600px) {
+@media All and (max-width: 768px) {
+  .filter .filterContent > div:nth-child(odd) {
+    position: inherit;
+    height: 100%;
+  }
+  .filter .searchSection .search {
+    grid-column: 1/4;
+  }
+  .filter .searchSection .additionalsearch {
+    grid-column: 1/3;
+  }
+  .filter .filterContent {
+    grid-template-columns: 1fr;
+  }
 }
