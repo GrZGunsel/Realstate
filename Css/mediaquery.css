@@ -24,6 +24,32 @@
 }
 
 @media All and (max-width: 1024px) {
+  .logo img {
+    height: 60px;
+    width: auto;
+  }
+  .soldproperty .bottomsection .properties,
+  .recentproperty .bottomsection .properties {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .contact .contactDetails {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .service .service-content {
+    flex-direction: column;
+  }
+  .homepage .hero-image .advanceSearch > div:nth-child(1) {
+    width: 100%;
+  }
+  .homepage .hero-image .advanceSearch > div:nth-child(2) {
+    display: none;
+  }
+}
+
+@media All and (max-width: 768px) {
   .navbar .button {
     display: block;
   }
@@ -50,6 +76,12 @@
   .navbar .navlinks .navlink ul {
     flex-direction: column;
     align-items: flex-start;
+  }
+  .soldproperty .bottomsection .properties,
+  .recentproperty .bottomsection .properties {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
   }
   .navbar .navlinks .navlink ul li .active {
     border-bottom: 1px solid #ffffff;
@@ -88,28 +120,6 @@
   .navbar .navlinks .navlink ul li a {
     color: white;
   }
-  .soldproperty .bottomsection .properties,
-  .recentproperty .bottomsection .properties {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .contact .contactDetails {
-    flex-direction: column;
-    gap: 40px;
-  }
-  .service .service-content {
-    flex-direction: column;
-  }
-  .homepage .hero-image .advanceSearch > div:nth-child(1) {
-    width: 100%;
-  }
-  .homepage .hero-image .advanceSearch > div:nth-child(2) {
-    display: none;
-  }
-}
-
-@media All and (max-width: 768px) {
   #Homepage {
     margin-bottom: 30px;
   }
@@ -143,7 +153,7 @@
   }
   .aboutus .aboutus-content .rightcontainer img,
   .service .service-content .rightcontainer img {
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -152,7 +162,7 @@
     height: 60vh;
   }
   .logo img {
-    height: 40px;
+    height: 50px;
     width: auto;
   }
   h3 {
