@@ -37,7 +37,7 @@
     width: 80%;
     height: 100vh;
     display: flex;
-    padding: 2rem 3rem;
+
     flex-direction: column;
     justify-content: space-between;
     z-index: 999;
@@ -178,7 +178,12 @@
   textarea {
     border-radius: 6px !important;
   }
-
+  .navbar .navlinks .navlink .profile {
+    padding: 10px 20px;
+  }
+  .navbar .navlinks .navlink ul {
+    padding: 10px 20px;
+  }
   input::placeholder,
   textarea::placeholder {
     font-size: 12px !important;
@@ -199,9 +204,7 @@
   #Footer {
     padding: 3rem 20px;
   }
-  #Navbar {
-    padding: 20px 20px;
-  }
+
   .testamonial .bottomsection {
     flex-direction: column;
     gap: 60px;
