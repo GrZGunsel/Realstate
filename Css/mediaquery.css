@@ -76,6 +76,7 @@
   .navbar .navlinks .navlink ul {
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: 10px;
   }
   .soldproperty .bottomsection .properties,
   .recentproperty .bottomsection .properties {
@@ -88,7 +89,7 @@
     padding: 10px 0;
   }
   .navbar .navlinks .navlink ul > li {
-    padding: 20px 0px;
+    padding: 10px 0px;
   }
   .navbar .navlinks .profile {
     flex-direction: column;
