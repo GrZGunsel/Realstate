@@ -37,7 +37,7 @@
     width: 80%;
     height: 100vh;
     display: flex;
-    padding: 40px 4rem;
+    padding: 2rem 3rem;
     flex-direction: column;
     justify-content: space-between;
     z-index: 999;
@@ -62,19 +62,17 @@
   .navbar .navlinks .profile {
     flex-direction: column;
   }
-  .navbar .navlinks .profile .loginauth {
-    margin-bottom: 20px;
-  }
-  .navbar .navlinks .profile .loginauth a {
+
+  .navbar .navlinks .profile .loginauth a button {
     background-color: var(--clr-secondary);
-    width: 20rem;
+    width: 50%;
     border-radius: 6px;
   }
-  .navbar .navlinks .profile .Registrationauth a {
-    outline: 1px solid var(--clr-secondary);
+  .navbar .navlinks .profile .Registrationauth a button {
+    outline: 1px solid var(--clr-secondary-white);
     padding: 10px 20px;
-
-    color: var(--clr-secondary);
+    width: 50%;
+    color: var(--clr-secondary-white);
   }
   .navbar .navlinks .nav-active {
     left: 0px;
@@ -182,6 +180,12 @@
   input::placeholder,
   textarea::placeholder {
     font-size: 12px !important;
+  }
+  .navbar .navlinks .profile .loginauth a button {
+    width: 100%;
+  }
+  .navbar .navlinks .profile .Registrationauth a button {
+    width: 100%;
   }
 
   .body > section {

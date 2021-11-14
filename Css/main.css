@@ -130,25 +130,27 @@ section {
   gap: 20px;
 }
 
-.navbar .navlinks .profile .loginauth a {
+.navbar .navlinks .profile .loginauth a button {
   background-color: var(--clr--primary);
   padding: 10px 20px;
+
   color: var(--clr-input-color);
   border-radius: 6px;
   font-size: 14px;
 }
-.navbar .navlinks .profile .loginauth a:hover {
+.navbar .navlinks .profile .loginauth a button:hover {
   background-color: var(--clr-secondary-black);
 }
 
-.navbar .navlinks .profile .Registrationauth a {
+.navbar .navlinks .profile .Registrationauth a button {
   outline: 1px solid var(--clr--primary);
+  background-color: transparent;
   padding: 10px 20px;
   color: var(--clr-primary-color);
   border-radius: 6px;
   font-size: 14px;
 }
-.navbar .navlinks .profile .Registrationauth a:hover {
+.navbar .navlinks .profile .Registrationauth a button:hover {
   border: none;
   background-color: var(--clr-secondary-black);
   color: var(--clr-primary-white);
