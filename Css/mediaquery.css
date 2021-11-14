@@ -47,10 +47,12 @@
 
   .navbar .navlinks .navlink .profile {
     width: 100%;
+    padding: 2rem 3rem;
   }
   .navbar .navlinks .navlink ul {
     flex-direction: column;
     align-items: flex-start;
+    padding: 2rem 3rem;
   }
   .navbar .navlinks .navlink ul li .active {
     border-bottom: 1px solid #ffffff;
