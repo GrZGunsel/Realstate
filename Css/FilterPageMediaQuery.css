@@ -3,7 +3,7 @@
     padding: 2rem 40px;
   }
   .filter .filterBody .property .content {
-    padding: 15px 10px;
+    padding: 15px 20px;
   }
 }
 
@@ -23,18 +23,46 @@
 }
 
 @media All and (max-width: 768px) {
+  .filter .searchSection .filterbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+  .filter .filterContent > .advanceFilter {
+    display: none;
+  }
+  .filter .searchSection {
+    margin-bottom: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
   .FilterPage > section {
     padding: 2rem 20px;
+  }
+  .filter .filterContent > .filter-active {
+    display: block;
+    position: inherit;
+    height: 100%;
+  }
+  .filter .filterBody .sort {
+    display: none;
+  }
+
+  .filter .searchSection .additionalsearch > div {
+    padding: 20px;
   }
   .filter .filterBody .property .content > * {
     margin-bottom: 10px;
   }
-
+  .filter .filterBody .property .content {
+    padding: 15px 10px;
+  }
   .filter .filterBody .property {
     flex-direction: column;
   }
   .filter .filterBody .property .image {
     width: 100%;
+    border-radius: 0px;
   }
   .filter .filterBody .property .content {
     width: 100%;
@@ -44,15 +72,12 @@
     padding: 10px 10px;
     width: 48%;
   }
-  .filter .filterContent > div:nth-child(odd) {
-    position: inherit;
-    height: 100%;
-  }
+
   .filter .searchSection .search {
-    grid-column: 1/4;
+    grid-column: 1/3;
   }
   .filter .searchSection .additionalsearch {
-    grid-column: 1/3;
+    grid-column: 1/2;
   }
   .filter .filterContent {
     grid-template-columns: 1fr;

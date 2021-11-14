@@ -1026,7 +1026,7 @@ section {
   gap: 10px;
   flex-wrap: wrap;
 }
-.filter .filterContent .advanceFilter .button {
+.filter .filterContent .advanceFilter .buttons {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -1077,7 +1077,7 @@ section {
 }
 .filter .filterBody .property {
   display: flex;
-  gap: 10px;
+
   overflow: hidden;
 
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
@@ -1105,9 +1105,12 @@ section {
   height: 100%;
   width: 100%;
 }
+.filter .searchSection .filterbutton {
+  display: none;
+}
 .filter .filterBody .property .content {
   width: 60%;
-  padding: 20px 10px;
+  padding: 20px 20px;
 }
 .filter .filterBody .property .content .propertyheader,
 .filter .filterBody .property .content .propertyFooter {
