@@ -126,14 +126,12 @@ section {
 
 .navbar .navlinks .profile {
   display: flex;
-
   gap: 20px;
 }
 
 .navbar .navlinks .profile .loginauth a button {
   background-color: var(--clr--primary);
   padding: 10px 20px;
-
   color: var(--clr-input-color);
   border-radius: 6px;
   font-size: 14px;

@@ -93,6 +93,10 @@
   .navbar .navlinks .profile {
     flex-direction: column;
   }
+  .navbar .navlinks .profile .Registrationauth a button {
+    outline: none;
+    border: 1px solid var(--clr--primary);
+  }
 
   .navbar .navlinks .profile .loginauth a button {
     background-color: var(--clr-secondary);
