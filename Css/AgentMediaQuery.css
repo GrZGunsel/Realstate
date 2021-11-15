@@ -22,8 +22,13 @@
   #Agentabout .about .propertyunder .properties {
     grid-template-columns: repeat(2, 1fr);
   }
-  .agent_header > div > * {
-    display: inline-block;
+  .agents .agent_header input {
+    width: 40%;
+    padding: 10px 10px;
+  }
+
+  .agents .agent_header input:focus {
+    width: 50%;
   }
 
   .agent_header .agentinfo {
@@ -34,19 +39,13 @@
   .AgentDetail #AgentHeader {
     height: 100%;
   }
-  .agent_header {
-    flex-direction: column;
-  }
 }
 
 @media All and (max-width: 600px) {
   .agent_header .agentinfo {
     flex-direction: column;
   }
-  .agents .agent_header input {
-    width: 50%;
-    padding: 10px 10px;
-  }
+
   #Agents,
   #AgentHeader,
   #Agentabout {

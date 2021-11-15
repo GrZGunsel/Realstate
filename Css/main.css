@@ -1147,10 +1147,7 @@ dasdsa */
   justify-content: space-between;
 }
 .agents .agent_header input {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  width: 20%;
+  width: 200px;
   padding: 15px 20px;
   border-radius: 6px;
   border: 1px solid var(--clr-secondary-black);
@@ -1158,7 +1155,7 @@ dasdsa */
 }
 
 .agents .agent_header input:focus {
-  width: 35%;
+  width: 400px;
 }
 .agents .agent_body .agentInfo {
   padding: 2rem 0;
