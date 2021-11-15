@@ -62,11 +62,15 @@
 }
 
 @media All and (max-width: 600px) {
+  #Blog .blogs_posts .blog .description .description_header .icon {
+    font-size: 18px;
+  }
   #Blog {
     padding: 2rem 20px;
   }
   #Blog .blogs_posts .blog .description {
-    padding: 20px;
+    padding: 15px 10px;
+    gap: 10px;
   }
   #Blog .blog {
     height: 100%;

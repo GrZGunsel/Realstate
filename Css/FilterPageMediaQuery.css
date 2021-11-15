@@ -88,3 +88,9 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media All and (max-width: 600px) {
+  .filter .filterBody .property {
+    height: 30rem;
+  }
+}
