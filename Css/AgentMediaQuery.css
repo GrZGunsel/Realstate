@@ -22,19 +22,14 @@
   #Agentabout .about .propertyunder .properties {
     grid-template-columns: repeat(2, 1fr);
   }
-  .agents .agent_header input {
-    width: 40%;
-    padding: 10px 10px;
-  }
-
-  .agents .agent_header input:focus {
-    width: 50%;
+  .agent_header > div > * {
+    display: inline-block;
   }
 
   .agent_header .agentinfo {
     border: none;
-    border-bottom: 1px solid var(--clr-secondary-white);
-    padding: 20px 0;
+    border-right: 1px solid var(--clr-secondary-white);
+    padding: 20px 20px;
   }
   .AgentDetail #AgentHeader {
     height: 100%;
@@ -42,10 +37,21 @@
 }
 
 @media All and (max-width: 600px) {
+  .agent_header {
+    flex-direction: column;
+  }
+  .agent_header .agentinfo {
+    border-right: none;
+    border-bottom: 1px solid var(--clr-secondary-white);
+    padding: 0;
+  }
   .agent_header .agentinfo {
     flex-direction: column;
   }
-
+  .agents .agent_header input {
+    width: 50%;
+    padding: 10px 10px;
+  }
   #Agents,
   #AgentHeader,
   #Agentabout {
