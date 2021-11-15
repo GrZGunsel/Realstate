@@ -47,7 +47,7 @@
     grid-template-columns: repeat(1, 1fr);
   }
   #Blog {
-    padding: 2rem 20px;
+    padding: 2rem 40px;
   }
   .blog > .rightcontainer .recentblogs {
     grid-template-columns: repeat(2, 1fr);
@@ -62,9 +62,10 @@
 }
 
 @media All and (max-width: 600px) {
-  .blogs_posts .blog .description {
-    padding: 0 20px;
+  #Blog {
+    padding: 2rem 20px;
   }
+
   #Blog .blogs_header input {
     padding: 10px;
     width: 40%;
