@@ -1142,11 +1142,11 @@ dasdsa */
   display: flex;
   justify-content: center;
 }
-.agents .agent_header {
+.agents .agentheader {
   display: flex;
   justify-content: space-between;
 }
-.agents .agent_header input {
+.agents .agentheader input {
   width: 200px;
   padding: 15px 20px;
   border-radius: 6px;
@@ -1154,7 +1154,7 @@ dasdsa */
   transition: all 0.3s ease-in-out;
 }
 
-.agents .agent_header input:focus {
+.agents .agentheader input:focus {
   width: 400px;
 }
 .agents .agent_body .agentInfo {

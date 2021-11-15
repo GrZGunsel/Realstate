@@ -25,7 +25,13 @@
   .agent_header > div > * {
     display: inline-block;
   }
-
+  .agents .agentheader input {
+    width: 40%;
+    padding: 10px 10px;
+  }
+  .agents .agentheader input:focus {
+    width: 50%;
+  }
   .agent_header .agentinfo {
     border: none;
     border-right: 1px solid var(--clr-secondary-white);
@@ -48,10 +54,7 @@
   .agent_header .agentinfo {
     flex-direction: column;
   }
-  .agents .agent_header input {
-    width: 50%;
-    padding: 10px 10px;
-  }
+
   #Agents,
   #AgentHeader,
   #Agentabout {
