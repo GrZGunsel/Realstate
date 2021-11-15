@@ -28,10 +28,12 @@
     display: block;
   }
   *:hover {
-    background: none !important;
     transform: none !important;
   }
 
+  .filter .filterContent .advanceFilter .sort {
+    display: block;
+  }
   .navbar .navlinks .navlink {
     flex-direction: column;
     position: fixed;

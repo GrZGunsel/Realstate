@@ -55,10 +55,6 @@
   .blog > .rightcontainer .recentblogs h4 {
     grid-column: 1/3;
   }
-  .blog .leftcontainer .blog_body .comment .comment-description .image {
-    height: 50px;
-    width: 130px;
-  }
 }
 
 @media All and (max-width: 600px) {
@@ -96,9 +92,7 @@
   .blog .leftcontainer .blog_body .carousel .image {
     height: 20rem;
   }
-  .blog .leftcontainer .blog_body .comment .comment-description .image {
-    width: 244px;
-  }
+
   .blog .leftcontainer .blog_body .comment .comment-description .info p {
     width: 100%;
   }

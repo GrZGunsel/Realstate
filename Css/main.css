@@ -999,6 +999,9 @@ section {
 .filter .filterContent .advanceFilter {
   background-color: var(--clr--primary);
 }
+.filter .filterContent .advanceFilter .sort {
+  display: none;
+}
 .filter .filterContent .advanceFilter h5 {
   font-size: 15px;
   font-weight: 500;
@@ -1351,8 +1354,9 @@ asdsadsadassadsad */
 }
 .blog .leftcontainer .blog_body .comments-tab .input-section .image {
   height: 50px;
-  width: 58px;
+  width: 50px;
   border-radius: 50%;
+  flex-shrink: 0;
   overflow: hidden;
 }
 .blog .leftcontainer .blog_body .comments-tab .input-section .input {
@@ -1401,7 +1405,9 @@ asdsadsadassadsad */
 }
 .blog .leftcontainer .blog_body .comment .comment-description .image {
   height: 50px;
-  width: 97px;
+  width: 50px;
+  flex-shrink: 0;
+
   overflow: hidden;
   border-radius: 50%;
 }
