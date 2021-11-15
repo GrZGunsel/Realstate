@@ -66,7 +66,7 @@
     padding: 2rem 20px;
   }
   #Blog .blog {
-    height: 40rem;
+    height: 100%;
   }
 
   #Blog .blogs_header input {
