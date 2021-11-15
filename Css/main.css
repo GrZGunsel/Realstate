@@ -896,11 +896,10 @@ section {
   margin-bottom: 10px;
 }
 
-#property .similarProperties .similarProperty .description a {
-  background-color: var(--clr--primary);
+#property .similarProperties .similarProperty .description a button {
   padding: 10px 20px;
   font-size: 14px;
-  color: var(--clr-primary-white);
+  margin: 0;
   border-radius: 6px;
 }
 #property .similarProperties .similarProperty .img {
