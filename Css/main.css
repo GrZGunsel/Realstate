@@ -19,6 +19,7 @@
   --clr-primary-white: #ffffff;
   --clr-secondary-white: #e7e7e7;
   --clr-input-color: #f6f6f6;
+  --clr-button-primary-color: #f99b1f;
 }
 img {
   object-fit: cover;
@@ -53,7 +54,7 @@ p {
 }
 
 button {
-  background: #f99b1f;
+  background: var(--clr-button-primary-color);
   cursor: pointer;
   backdrop-filter: blur(10px);
   border-radius: 6px;
@@ -130,7 +131,6 @@ section {
 }
 
 .navbar .navlinks .profile .loginauth a button {
-  background-color: var(--clr--primary);
   padding: 10px 20px;
   color: var(--clr-input-color);
   border-radius: 6px;
@@ -141,10 +141,10 @@ section {
 }
 
 .navbar .navlinks .profile .Registrationauth a button {
-  outline: 1px solid var(--clr--primary);
   background-color: transparent;
+  outline: 1px solid var(--clr-button-primary-color);
   padding: 10px 20px;
-  color: var(--clr-primary-color);
+  color: var(--clr-button-primary-color);
   border-radius: 6px;
   font-size: 14px;
 }

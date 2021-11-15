@@ -23,35 +23,13 @@
   }
 }
 
-@media All and (max-width: 1024px) {
-  .logo img {
-    height: 60px;
-    width: auto;
-  }
-  .soldproperty .bottomsection .properties,
-  .recentproperty .bottomsection .properties {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .contact .contactDetails {
-    flex-direction: column;
-    gap: 40px;
-  }
-  .service .service-content {
-    flex-direction: column;
-  }
-  .homepage .hero-image .advanceSearch > div:nth-child(1) {
-    width: 100%;
-  }
-  .homepage .hero-image .advanceSearch > div:nth-child(2) {
-    display: none;
-  }
-}
-
-@media All and (max-width: 768px) {
+@media All and (max-width: 900px) {
   .navbar .button {
     display: block;
+  }
+  *:hover {
+    background: none !important;
+    transform: none !important;
   }
 
   .navbar .navlinks .navlink {
@@ -60,7 +38,7 @@
     background-color: var(--clr--primary);
     top: 0;
     left: -100%;
-    width: 80%;
+    width: 50%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -94,25 +72,48 @@
   .navbar .navlinks .profile {
     flex-direction: column;
   }
-  .navbar .navlinks .profile .Registrationauth a button {
-    outline: none;
-    border: 1px solid var(--clr--primary);
-  }
 
   .navbar .navlinks .profile .loginauth a button {
-    background-color: var(--clr-secondary);
     width: 50%;
     border-radius: 6px;
   }
   .navbar .navlinks .profile .Registrationauth a button {
-    outline: 1px solid var(--clr-secondary-white);
+    border: 1px solid var(--clr-button-primary-color);
     padding: 10px 20px;
     width: 50%;
-    color: var(--clr-secondary-white);
+    background-color: transparent;
+    outline: none;
   }
+
   .navbar .navlinks .nav-active {
     left: 0px;
   }
+  .logo img {
+    height: 60px;
+    width: auto;
+  }
+  .soldproperty .bottomsection .properties,
+  .recentproperty .bottomsection .properties {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .contact .contactDetails {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .service .service-content {
+    flex-direction: column;
+  }
+  .homepage .hero-image .advanceSearch > div:nth-child(1) {
+    width: 100%;
+  }
+  .homepage .hero-image .advanceSearch > div:nth-child(2) {
+    display: none;
+  }
+}
+
+@media All and (max-width: 768px) {
   .navbar .bg-active {
     position: fixed;
     top: 0;
@@ -168,7 +169,7 @@
   }
   .homepage .hero-image {
     height: 60vh;
-    padding: 20px;
+    padding: 20pxg;
   }
   .logo img {
     height: 50px;
@@ -265,5 +266,9 @@
     display: inline-block;
     width: 40%;
     font-size: 13px;
+  }
+
+  .navbar .navlinks .navlink {
+    width: 80%;
   }
 }
