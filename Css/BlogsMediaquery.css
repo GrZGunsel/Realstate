@@ -65,6 +65,9 @@
   #Blog {
     padding: 2rem 20px;
   }
+  #Blog .blogs_posts .blog .description {
+    padding: 20px;
+  }
   #Blog .blog {
     height: 100%;
   }
