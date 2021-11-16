@@ -43,7 +43,7 @@
     grid-row-gap: 20px;
   }
   .FilterPage > section {
-    padding: 2rem 20px;
+    padding: 2rem 40px;
   }
   .filter .filterContent > .filter-active {
     display: block;
@@ -59,14 +59,13 @@
     margin-bottom: 10px;
   }
   .filter .filterBody .property .content {
-    padding: 15px 10px;
+    padding: 20px;
   }
   .filter .filterBody .property {
     flex-direction: column;
   }
   .filter .filterBody .property .image {
     width: 100%;
-    height: 20rem;
     border-radius: 0px;
   }
   .filter .filterBody .property .content {
@@ -75,7 +74,7 @@
   .filter .filterContent .advanceFilter .budget input,
   .filter .filterContent .advanceFilter .noofRoom input {
     padding: 10px 10px;
-    width: 48%;
+    flex: 1;
   }
 
   .filter .searchSection .search {
@@ -92,5 +91,14 @@
 @media All and (max-width: 600px) {
   .filter .filterBody .property {
     height: 30rem;
+  }
+  .FilterPage > section {
+    padding: 2rem 20px;
+  }
+  .filter .filterBody .property .content {
+    padding: 10px;
+  }
+  .filter .filterBody .property .image {
+    height: 20rem;
   }
 }
