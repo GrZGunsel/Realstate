@@ -968,6 +968,9 @@ section {
   padding: 10px 20px;
   gap: 10px;
 }
+.filter .searchSection .additionalsearch .filterbutton {
+  display: none;
+}
 
 .filter .searchSection .additionalsearch > div:hover {
   background-color: var(--clr-secondary-black);

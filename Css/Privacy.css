@@ -1,0 +1,26 @@
+.Privacyandpolicy > section {
+  display: flex;
+  justify-content: center;
+}
+
+.privacy {
+  display: flex;
+  gap: 40px;
+}
+
+.privacy > div:nth-child(1) {
+  position: sticky;
+  top: 20px;
+  height: 100%;
+  width: 30%;
+  padding-right: 10px;
+  border-right: 1px solid var(--clr--primary);
+}
+
+.privacy > div > * {
+  margin-bottom: 10px;
+}
+
+.privacy div .active p {
+  color: var(--clr-button-primary-color);
+}
