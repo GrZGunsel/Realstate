@@ -27,7 +27,7 @@ const filter = () => {
   const removeclass = document.querySelector(".fas fa-filter");
   console.log(removeclass);
   filterbtn.addEventListener("click", () => {
-    Filter.classList.add("filter-active");
+    Filter.classList.toggle("filter-active");
   });
   removeclass.addEventListener("click", () => {
     Filter.classList.remove("nav-active");
