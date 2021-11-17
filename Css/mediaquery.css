@@ -211,6 +211,9 @@
     padding: 3rem 20px;
   }
 
+  .homepage .hero-image .advanceSearch .searchSection .bottomsection input {
+    font-size: 13px;
+  }
   #RecentProperty,
   #SoldProperty,
   #Footer {
