@@ -98,4 +98,7 @@
   .blog .leftcontainer .blog_body .carousel .slider {
     gap: 5px;
   }
+  .blog .leftcontainer .blog_body .comments-tab .input-section .btn button {
+    display: none;
+  }
 }

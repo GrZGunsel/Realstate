@@ -524,6 +524,17 @@
         </div>
       </section>
       <script src="../Js/Main.js"></script>
+      <script>
+        const filter = () => {
+          const filterbtn = document.querySelector(".filterbutton");
+          const Filter = document.querySelector(".advanceFilter");
+
+          filterbtn.addEventListener("click", () => {
+            Filter.classList.toggle("filter-active");
+          });
+        };
+        filter();
+      </script>
     </div>
   </body>
 </html>

@@ -15,17 +15,6 @@ const navslide = () => {
 };
 navslide();
 
-const filter = () => {
-  const filterbtn = document.querySelector(".filterbutton");
-  console.log(filterbtn);
-  const Filter = document.querySelector(".advanceFilter");
-  console.log(Filter);
-  filterbtn.addEventListener("click", () => {
-    Filter.classList.toggle("filter-active");
-  });
-};
-filter();
-
 function slider1(id) {
   let image = document.getElementById(id).src;
   document.getElementById("demo").src = image;
