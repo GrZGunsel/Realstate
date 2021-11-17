@@ -30,6 +30,10 @@
     font-size: 16px;
   }
 
+  .filter .searchSection .additionalsearch > div:hover {
+    background-color: white;
+    color: var(--clr--primary);
+  }
   .filter .filterContent > div:nth-child(odd) {
     position: inherit;
     height: 100%;
@@ -43,6 +47,10 @@
   .FilterPage > section {
     padding: 2rem 40px;
   }
+  .filter .filterContent > .advanceFilter {
+    display: none;
+  }
+
   .filter .filterContent > .filter-active {
     display: block;
   }

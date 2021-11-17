@@ -15,22 +15,18 @@ const navslide = () => {
 };
 navslide();
 
-function slider1(id) {
-  let image = document.getElementById(id).src;
-  document.getElementById("demo").src = image;
-}
 const filter = () => {
   const filterbtn = document.querySelector(".filterbutton");
   console.log(filterbtn);
   const Filter = document.querySelector(".advanceFilter");
   console.log(Filter);
-  const removeclass = document.querySelector(".fas fa-filter");
-  console.log(removeclass);
   filterbtn.addEventListener("click", () => {
     Filter.classList.toggle("filter-active");
   });
-  removeclass.addEventListener("click", () => {
-    Filter.classList.remove("nav-active");
-  });
 };
 filter();
+
+function slider1(id) {
+  let image = document.getElementById(id).src;
+  document.getElementById("demo").src = image;
+}
