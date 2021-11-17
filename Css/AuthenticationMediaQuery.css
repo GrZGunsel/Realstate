@@ -20,11 +20,12 @@
 }
 @media All and (max-width: 768px) {
   .login .logincontainer > div:nth-child(1) {
-    padding: 2rem 4rem;
+    padding: 2rem;
     width: 100%;
   }
   .login .logincontainer > div:nth-child(2) {
     width: 100%;
+    display: none;
   }
   .AuthenticationSection > section > div > div > div {
     flex-direction: column;
@@ -34,6 +35,9 @@
   }
   .Register .leftcontainer .bg-image {
     padding: 2rem;
+  }
+  .Register .Registercontainer .leftcontainer {
+    display: none;
   }
 }
 
