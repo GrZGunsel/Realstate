@@ -21,6 +21,7 @@
 @media All and (max-width: 768px) {
   .login .logincontainer > div:nth-child(1) {
     padding: 0 2rem;
+    height: 100%;
     width: 100%;
   }
   .Register .Registercontainer > div:nth-child(2) {
