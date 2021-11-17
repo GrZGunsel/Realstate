@@ -19,6 +19,10 @@
   }
 }
 @media All and (max-width: 768px) {
+  .login,
+  .Register {
+    overflow: auto;
+  }
   .login .logincontainer > div:nth-child(1) {
     padding: 2rem;
     height: 100vh;
