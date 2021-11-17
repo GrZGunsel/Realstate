@@ -27,12 +27,12 @@
     height: 100%;
   }
   .login .logincontainer > div:nth-child(1) {
-    padding: 2rem;
+    padding: 2rem 20px;
     height: 100%;
     width: 100%;
   }
   .Register .Registercontainer > div:nth-child(2) {
-    padding: 2rem;
+    padding: 2rem 20px;
     height: 100%;
   }
   .login .logincontainer > div:nth-child(2) {
