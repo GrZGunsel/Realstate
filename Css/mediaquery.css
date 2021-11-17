@@ -23,7 +23,7 @@
   }
 }
 
-@media All and (max-width: 900px) {
+@media All and (max-width: 1024px) {
   .navbar .button {
     display: block;
   }
@@ -249,7 +249,10 @@
   .contact .contactDetails .rightcontainer .contactform textarea {
     grid-column: 1/1;
   }
-  .homepage .hero-image .advanceSearch {
+  .hero-image .advanceSearch .bottomsection button {
+    display: none;
+  }
+  .hero-image .advanceSearch .bottomsection select {
     display: none;
   }
   .aboutus .aboutus-content .rightcontainer {
@@ -263,6 +266,9 @@
   }
   .footer .bottomsection {
     flex-direction: column;
+  }
+  .homepage .hero-image .advanceSearch {
+    height: 100%;
   }
 
   .footer .bottomsection a {

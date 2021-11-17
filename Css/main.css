@@ -1149,10 +1149,13 @@ dasdsa */
   display: flex;
   justify-content: space-between;
 }
+.agents .agentheader h5 {
+  font-weight: 400;
+}
 .agents .agentheader input {
   width: 200px;
   padding: 15px 20px;
-  border-radius: 6px;
+  border-radius: 12px;
   border: 1px solid var(--clr-secondary-black);
   transition: all 0.3s ease-in-out;
 }
