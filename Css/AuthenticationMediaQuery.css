@@ -22,7 +22,8 @@
   .login,
   .Register {
     overflow: auto;
-    border-radius: none;
+    border-radius: 0px;
+    height: 100vh;
   }
   .login .logincontainer > div:nth-child(1) {
     padding: 2rem;
