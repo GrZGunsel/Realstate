@@ -219,7 +219,10 @@
   #Footer {
     padding: 3rem 20px;
   }
-
+  .soldproperty .bottomsection .properties > div,
+  .recentproperty .bottomsection .properties > div {
+    gap: 0px;
+  }
   .testamonial .bottomsection {
     flex-direction: column;
     gap: 60px;
