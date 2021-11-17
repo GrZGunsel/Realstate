@@ -1,7 +1,13 @@
 @media All and (max-width: 1366px) {
+  #PrivacyPolicy {
+    padding: 4rem 40px;
+  }
 }
 
 @media All and (max-width: 1024px) {
+  .privacy > div:nth-child(1) {
+    width: 40%;
+  }
 }
 @media All and (max-width: 768px) {
   #PrivacyPolicy {

@@ -1563,7 +1563,7 @@ Login And Registration  */
 .Register .Registercontainer {
   display: flex;
   width: 100%;
-  height: 50rem;
+  height: 40rem;
 }
 .Register .Registercontainer > div {
   display: flex;
@@ -1652,7 +1652,7 @@ Login And Registration  */
 .agent_header {
   height: 100%;
   display: flex;
-
+  align-items: center;
   gap: 20px;
 }
 .agent_header > div {
@@ -1660,7 +1660,7 @@ Login And Registration  */
 }
 .agent_header .agentinfo {
   display: flex;
-
+  align-items: center;
   gap: 20px;
   border-right: 1px solid var(--clr-primary-white);
 }
