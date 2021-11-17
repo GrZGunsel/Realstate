@@ -37,7 +37,7 @@
     width: 100%;
   }
 }
-@media All and (max-width: 768px) {
+@media All and (max-width: 900px) {
   #Blog .blogs_posts .blog .description {
     justify-content: space-evenly;
     gap: 0px;

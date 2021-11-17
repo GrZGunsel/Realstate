@@ -17,7 +17,7 @@
     grid-gap: 20px;
   }
 }
-@media All and (max-width: 768px) {
+@media All and (max-width: 900px) {
   .agents .agent_body .agentInfo,
   #Agentabout .about .propertyunder .properties {
     grid-template-columns: repeat(2, 1fr);

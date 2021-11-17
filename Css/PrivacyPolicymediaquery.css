@@ -9,7 +9,7 @@
     width: 40%;
   }
 }
-@media All and (max-width: 768px) {
+@media All and (max-width: 900px) {
   #PrivacyPolicy {
     padding: 2rem 40px;
   }

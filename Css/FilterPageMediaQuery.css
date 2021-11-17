@@ -22,7 +22,7 @@
   }
 }
 
-@media All and (max-width: 768px) {
+@media All and (max-width: 900px) {
   .filter .searchSection .additionalsearch .filterbutton {
     display: flex;
     justify-content: center;

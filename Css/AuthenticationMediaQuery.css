@@ -19,7 +19,7 @@
     padding: 2rem;
   }
 }
-@media All and (max-width: 768px) {
+@media All and (max-width: 900px) {
   .login,
   .Register {
     overflow: auto;
