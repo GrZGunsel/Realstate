@@ -7,6 +7,7 @@
 @media All and (max-width: 1024px) {
   .AuthenticationSection > section {
     padding: 0;
+    height: 100%;
   }
   .AuthenticationSection > section > div > div > div {
     height: 100% !important;
