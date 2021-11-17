@@ -1,0 +1,41 @@
+@media All and (max-width: 1366px) {
+  .AuthenticationSection > section {
+    padding: 0 40px;
+  }
+}
+
+@media All and (max-width: 1024px) {
+  .AuthenticationSection > section {
+    padding: 0;
+  }
+  .AuthenticationSection > section > div > div > div {
+    height: 100vh !important;
+  }
+  .login .logincontainer > div:nth-child(1) {
+    padding: 2rem;
+  }
+  .Register .Registercontainer > div:nth-child(2) {
+    padding: 2rem;
+  }
+}
+@media All and (max-width: 768px) {
+  .login .logincontainer > div:nth-child(1) {
+    padding: 2rem 4rem;
+    width: 100%;
+  }
+  .login .logincontainer > div:nth-child(2) {
+    width: 100%;
+  }
+  .AuthenticationSection > section > div > div > div {
+    flex-direction: column;
+  }
+  .Register .Registercontainer {
+    flex-direction: column-reverse;
+  }
+  .Register .leftcontainer .bg-image {
+    padding: 2rem;
+  }
+}
+
+@media All and (max-width: 600px) {
+}

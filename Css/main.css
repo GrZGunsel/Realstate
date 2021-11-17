@@ -1469,7 +1469,7 @@ Login And Registration  */
   display: flex;
   flex-direction: column;
 
-  flex: 1;
+  width: 50%;
   gap: 30px;
 }
 .login .logincontainer > div:nth-child(1) {
@@ -1492,16 +1492,21 @@ Login And Registration  */
   height: 100%;
   padding: 3rem 4rem;
 }
+.login .rightcontainer .bg-image > * {
+  margin-bottom: 10px;
+}
 .login .rightcontainer p {
   color: var(--clr-secondary-white);
 }
-.login .rightcontainer a {
+.login .rightcontainer a button {
   color: var(--clr-secondary-white);
+  background-color: transparent;
   outline: 1px solid #f99b1f;
   border-radius: 6px;
+  backdrop-filter: blur(0px);
   padding: 10px 20px;
 }
-.login .rightcontainer a:hover {
+.login .rightcontainer a button:hover {
   background-color: #f99b1f;
   color: var(--clr-primary-white);
 }
@@ -1521,10 +1526,14 @@ Login And Registration  */
   margin: 15px 0;
 }
 
-.login .logincontainer .leftcontainer .form input {
+.login .logincontainer .leftcontainer .form > div input {
   background: var(--clr-input-color);
   padding: 20px 10px;
   border-radius: 6px;
+  width: 100%;
+}
+.login .logincontainer .leftcontainer .form .Rememberme input {
+  width: 20px !important;
 }
 
 .login .logincontainer .leftcontainer .form .submit {
@@ -1570,10 +1579,30 @@ Login And Registration  */
   flex-direction: column;
   justify-content: center;
   padding: 3rem 4rem;
-  flex: 1;
+  width: 100%;
   gap: 30px;
 }
 
+.Register .Registercontainer > div:nth-child(1) {
+  background-image: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+}
+.Register .leftcontainer .bg-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #424951ab;
+  height: 100%;
+  width: 100%;
+  padding: 3rem 4rem;
+}
+.Register .leftcontainer .bg-image > * {
+  margin-bottom: 10px;
+}
 .Register .Registercontainer > div:nth-child(1) {
   background-color: var(--clr--primary);
   align-items: center;
@@ -1582,13 +1611,15 @@ Login And Registration  */
 .Register .leftcontainer p {
   color: var(--clr-secondary-white);
 }
-.Register .leftcontainer a {
+.Register .leftcontainer a button {
   color: var(--clr-secondary-white);
+  background-color: transparent;
   outline: 1px solid #f99b1f;
   border-radius: 6px;
   padding: 10px 20px;
+  backdrop-filter: blur(0px);
 }
-.Register .leftcontainer a:hover {
+.Register .leftcontainer a button:hover {
   background-color: #f99b1f;
   color: var(--clr-primary-white);
 }
