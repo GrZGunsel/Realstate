@@ -268,9 +268,16 @@
     flex-direction: column;
   }
   .homepage .hero-image .advanceSearch {
-    height: 100%;
+    height: 140px;
   }
 
+  .homepage .hero-image .advanceSearch > div:nth-child(1) {
+    height: 100%;
+    justify-content: space-between;
+  }
+  .homepage .hero-image .advanceSearch .searchSection .bottomsection {
+    margin: 0;
+  }
   .footer .bottomsection a {
     display: inline-block;
     width: 40%;
