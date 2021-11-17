@@ -9,7 +9,7 @@
     padding: 0;
   }
   .AuthenticationSection > section > div > div > div {
-    height: 100vh !important;
+    height: 100% !important;
   }
   .login .logincontainer > div:nth-child(1) {
     padding: 2rem;
@@ -22,10 +22,11 @@
   .login,
   .Register {
     overflow: auto;
+    border-radius: none;
   }
   .login .logincontainer > div:nth-child(1) {
     padding: 2rem;
-    height: 100vh;
+    height: 100%;
     width: 100%;
   }
   .Register .Registercontainer > div:nth-child(2) {
