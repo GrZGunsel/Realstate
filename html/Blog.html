@@ -224,8 +224,9 @@
                       <div class="option">
                         <i class="fas fa-ellipsis-v"></i>
                         <div class="popup">
-                          <button>edit</button>
-                          <button>delete</button>
+                          <div><i class="fas fa-flag"></i> Report</div>
+                          <div><i class="fas fa-edit"></i> Edit</div>
+                          <div><i class="fas fa-trash"></i> Delete</div>
                         </div>
                       </div>
                     </div>
@@ -382,8 +383,12 @@
       <script src="../Js/Main.js"></script>
       <script>
         const optionMenu = () => {
-          const btn = document.querySelector(".option");
-          console.log(btn);
+          const btn = document.querySelector(".fa-ellipsis-v");
+          const popup = document.querySelector(".popup");
+          console.log(popup);
+          btn.addEventListener("click", () => {
+            popup.classList.toggle("active");
+          });
         };
         optionMenu();
       </script>

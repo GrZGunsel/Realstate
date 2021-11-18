@@ -25,7 +25,9 @@
 img {
   object-fit: cover;
 }
-
+i {
+  cursor: pointer;
+}
 h1 {
   color: #f99b1f;
   font-family: "Poppins", sans-serif;
@@ -1389,15 +1391,25 @@ asdsadsadassadsad */
   align-items: flex-end;
 }
 .blog .leftcontainer .blog_body .comment .option .popup {
+  display: none;
+}
+.blog .leftcontainer .blog_body .comment .option .popup > div {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+.blog .leftcontainer .blog_body .comment .option .active {
   display: flex;
   flex-direction: column;
   gap: 20px;
   position: absolute;
-  padding: 20px;
-  top: 20px;
-  width: 150px;
-  background-color: var(--clr--primary);
+  padding: 10px;
+  top: 14px;
+  right: 10px;
+  width: 110px;
+  background-color: #f4f4f4;
   border-radius: 6px;
+  transition: all 300ms ease-in-out;
 }
 .blog .leftcontainer .blog_body .comment .option .popup button {
   background-color: transparent;
