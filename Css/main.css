@@ -1217,7 +1217,7 @@ asdsadsadassadsad */
 #Blog > div > h3 {
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .blog {
   display: flex;
@@ -1382,7 +1382,27 @@ asdsadsadassadsad */
   justify-content: space-between;
   gap: 20px;
 }
-
+.blog .leftcontainer .blog_body .comment .option {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.blog .leftcontainer .blog_body .comment .option .popup {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  padding: 20px;
+  top: 20px;
+  width: 150px;
+  background-color: var(--clr--primary);
+  border-radius: 6px;
+}
+.blog .leftcontainer .blog_body .comment .option .popup button {
+  background-color: transparent;
+  height: 20px;
+}
 .blog .leftcontainer .blog_body .comments-tab .input-section .btn button {
   padding: 15px 20px;
 }
@@ -1390,6 +1410,7 @@ asdsadsadassadsad */
   display: flex;
   gap: 10px;
 }
+
 .blog .leftcontainer .blog_body .comment .comment-description div > div {
   display: flex;
   gap: 5px;
