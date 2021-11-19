@@ -20,6 +20,11 @@
   }
 }
 @media All and (max-width: 900px) {
+  .login .logincontainer .leftcontainer .form .createanaccount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .login,
   .Register {
     overflow: auto;
@@ -31,11 +36,15 @@
     height: 100%;
     width: 100%;
   }
+  .AuthenticationSection > section > div > div > div {
+    height: 100vh !important;
+  }
   .Register .Registercontainer > div:nth-child(2) {
     padding: 2rem 20px;
     height: 100%;
   }
   .login .logincontainer > div:nth-child(2) {
+    display: none;
     width: 100%;
   }
   .AuthenticationSection > section > div > div > div {

@@ -16,10 +16,14 @@
   #form {
     padding: 2rem 20px;
   }
+  .FreeMarketAppraisal .form .leftcontainer .Property {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .FreeMarketAppraisal .market .form .leftcontainer .personalDetail {
     grid-template-columns: repeat(1, 1fr);
   }
-  .FreeMarketAppraisal .market .form .leftcontainer .personalDetail h4 {
+  .FreeMarketAppraisal .market .form .leftcontainer .personalDetail h4,
+  .FreeMarketAppraisal .form .leftcontainer .Property h4 {
     grid-column: 1/2;
   }
   .FreeMarketAppraisal .market .form .leftcontainer button {

@@ -1577,6 +1577,14 @@ Login And Registration  */
   justify-content: center;
   width: 100%;
 }
+.login .logincontainer .leftcontainer .form .createanaccount {
+  display: none;
+  gap: 10px;
+}
+.login .logincontainer .leftcontainer .form .createanaccount a p {
+  color: var(--clr-button-primary-color);
+  font-weight: 500;
+}
 .login .logincontainer .leftcontainer .form .submit button {
   height: 40px;
   width: 10rem;
