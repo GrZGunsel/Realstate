@@ -1479,6 +1479,9 @@ asdsadsadassadsad */
 /* 
 
 Login And Registration  */
+.AuthenticationSection {
+  height: 100vh;
+}
 
 .AuthenticationSection > section {
   display: flex;
@@ -1593,6 +1596,11 @@ Login And Registration  */
 .login .logincontainer .leftcontainer .form .Reminder {
   display: flex;
   justify-content: space-between;
+}
+.login .logincontainer .leftcontainer .form .Reminder div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 .login .logincontainer .leftcontainer .form .Reminder label,
 .login .logincontainer .leftcontainer .form .Reminder a {
