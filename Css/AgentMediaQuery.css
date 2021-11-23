@@ -32,6 +32,9 @@
   .agents .agentheader input:focus {
     width: 50%;
   }
+  .agent_header {
+    align-items: flex-start;
+  }
   .agent_header .agentinfo {
     border: none;
     border-right: 1px solid var(--clr-secondary-white);
