@@ -182,7 +182,7 @@ section {
   filter: saturate(80%);
   background-repeat: no-repeat;
 
-  height: 80vh;
+  height: 90vh;
   border-radius: 12px;
 }
 .homepage .hero-image .content {
@@ -1139,7 +1139,34 @@ section {
 .filter .filterContent .RecentlyViewed {
   background-color: var(--clr--primary);
 }
+.RecentlyViewed h4 {
+  margin-bottom: 20px;
+}
+.RecentlyViewed .property .image {
+  overflow: hidden;
+}
+.RecentlyViewed .property {
+  background: linear-gradient(
+    108.99deg,
+    rgba(255, 255, 255, 0.25) 1.09%,
+    rgba(255, 255, 255, 0.35) 99.06%
+  );
 
+  backdrop-filter: blur(10px);
+}
+.RecentlyViewed .content {
+  padding: 10px;
+}
+.RecentlyViewed .location {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.RecentlyViewed .location p,
+.RecentlyViewed .location i {
+  color: var(--clr-secondary-white);
+}
 /* asidedsa
 dasdsa */
 
@@ -1564,11 +1591,21 @@ Login And Registration  */
 .login .logincontainer .leftcontainer .LoginDetails > * {
   margin: 15px 0;
 }
-
-.login .logincontainer .leftcontainer .form > div input {
+.login .logincontainer .leftcontainer .form .Username,
+.login .logincontainer .leftcontainer .form .Passwordinput {
   background: var(--clr-input-color);
   padding: 20px 10px;
   border-radius: 6px;
+}
+.login .logincontainer .leftcontainer .form .Passwordinput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--clr-secondary);
+}
+.login .logincontainer .leftcontainer .form > div input {
+  background: transparent;
+  height: 100%;
   width: 100%;
 }
 .login .logincontainer .leftcontainer .form .Rememberme input {
@@ -1691,7 +1728,7 @@ Login And Registration  */
   margin: 15px 0;
 }
 
-.Register .Registercontainer .rightcontainer .form input {
+.Register .Registercontainer .rightcontainer .form .fristname {
   background: var(--clr-input-color);
   padding: 20px 10px;
   border-radius: 6px;
@@ -1713,10 +1750,26 @@ Login And Registration  */
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
 }
+.Register .Registercontainer .RegisterDetails .inputsection .input,
+.passwordinput {
+  background: var(--clr-input-color);
+  padding: 20px 10px;
+  border-radius: 6px;
+}
 .Register .Registercontainer .RegisterDetails .inputsection input {
   width: 100%;
 }
 
+.passwordinput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--clr-secondary);
+}
+.Register .Registercontainer .RegisterDetails .inputsection input {
+  background: transparent;
+  width: 100%;
+}
 .Register .Registercontainer .RegisterDetails .inputsection div:nth-child(5) {
   grid-column: 1/3;
 }

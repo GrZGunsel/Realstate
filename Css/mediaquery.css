@@ -2,9 +2,11 @@
   .container {
     width: 100%;
   }
-
+  .homepage {
+    padding: 2rem;
+  }
   .homepage .hero-image {
-    border-radius: 2px;
+    border-radius: 12px;
   }
   .homepage .hero-image {
     padding: 40px;
@@ -131,6 +133,12 @@
 @media All and (max-width: 768px) {
   #Homepage {
     margin-bottom: 30px;
+  }
+  .homepage {
+    padding: 0rem;
+  }
+  .homepage .hero-image {
+    border-radius: 0px !important;
   }
 
   .soldproperty .bottomsection .properties,
