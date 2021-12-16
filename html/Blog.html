@@ -177,6 +177,20 @@
                   <div class="Share">
                     <i class="far fa-share-square"></i>
                     <h4>Share</h4>
+                    <div class="hovercontainer">
+                      <a href="">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                      <a href="">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                      <a href="">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                      <a href="">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </div>
                   </div>
                 </div>
                 <div class="comments-tab">
@@ -385,7 +399,8 @@
         const optionMenu = () => {
           const btn = document.querySelector(".fa-ellipsis-v");
           const popup = document.querySelector(".popup");
-
+          const Share = document.querySelector(".Share");
+          const hover = document.querySelector(".hovercontainer");
           btn.addEventListener("click", () => {
             popup.classList.toggle("active");
           });

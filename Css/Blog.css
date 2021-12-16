@@ -6,6 +6,11 @@
   font-weight: 400;
 }
 
+.Blogcontainer a {
+  color: var(--clr-secondary-black) !important;
+  text-decoration: none !important;
+}
+
 .blogs_header {
   display: flex;
   justify-content: space-between;
@@ -13,6 +18,37 @@
   margin-bottom: 20px;
 }
 
+.Blogcontainer .nav-tabs .nav-link p {
+  color: #1e6eb1;
+}
+.Blogcontainer .nav-tabs .nav-link.active P {
+  color: var(--clr-primary-white);
+}
+.Blogcontainer .nav-tabs .nav-link {
+  border-radius: 12px;
+}
+.Blogcontainer .nav-tabs {
+  border: none;
+  display: flex;
+  gap: 20px;
+}
+.hovercontainer {
+  position: absolute;
+  top: 1.5rem;
+  display: flex;
+  gap: 10px;
+  background: black;
+  padding: 10px 20px;
+}
+.Blogcontainer .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background: linear-gradient(180deg, #1e6eb1 0%, rgba(30, 110, 177, 0.8) 100%);
+  color: white;
+}
+.Blogcontainer .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link p {
+  margin: 0;
+}
 .blogs_header input {
   padding: 15px 20px;
   border-radius: 12px;
@@ -35,7 +71,6 @@
 }
 
 .blog_filter .active {
-  background: linear-gradient(180deg, #1e6eb1 0%, rgba(30, 110, 177, 0.8) 100%);
   color: var(--clr-primary-white);
 }
 .blogs_posts {
@@ -100,10 +135,12 @@
 .blogs_posts .blog .description .description_header .user .userDescription h4 {
   font-weight: 600;
   font-size: 13px;
+  margin: 0;
 }
 .blogs_posts .blog .description .description_header .user .userDescription p {
   line-height: 14px;
   font-size: 12px;
+  margin: 0;
   color: var(--clr-secondary-black);
 }
 
@@ -117,6 +154,7 @@
 }
 .blogs_posts .blog .description .description_body p {
   line-height: 20px;
+  margin: 0 !important;
 }
 
 .blogs_posts .blog .description .description_footer {
@@ -126,6 +164,7 @@
 .blogs_posts .blog .description .description_footer p {
   color: var(--clr--primary);
   font-size: 13px;
+  margin: 0;
 }
 .blogs_posts .blog .description .description_footer i {
   color: var(--clr--primary);

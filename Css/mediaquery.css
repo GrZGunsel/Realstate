@@ -62,9 +62,6 @@
     padding: 20px 3rem;
   }
 
-  .navbar .navlinks .navlink .profile {
-    width: 100%;
-  }
   .navbar .navlinks .navlink ul {
     flex-direction: column;
     align-items: flex-start;
@@ -89,15 +86,35 @@
   .navbar .navlinks .profile {
     flex-direction: column;
   }
-
+  .navbar .navlinks .profile {
+    align-items: stretch;
+  }
+  .navbar .navlinks .profile p {
+    color: var(--clr-primary-white);
+  }
+  .navbar .navlinks .profile i {
+    display: none;
+  }
+  .navbar .navlinks .profile .userDropdown {
+    display: flex;
+    padding: 0 10px;
+    box-shadow: none;
+    background: transparent;
+  }
+  .navbar .navlinks .profile .userDropdown a {
+    width: 100%;
+  }
+  .navbar .navlinks .profile .userDropdown p {
+    color: var(--clr-primary-white);
+  }
   .navbar .navlinks .profile .loginauth a button {
-    width: 50%;
+    width: 100%;
     border-radius: 6px;
   }
   .navbar .navlinks .profile .Registrationauth a button {
     border: 1px solid var(--clr-button-primary-color);
     padding: 10px 20px;
-    width: 50%;
+    width: 100%;
     background-color: transparent;
     outline: none;
   }
