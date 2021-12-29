@@ -30,7 +30,8 @@
   .AuthenticationSection {
     height: 90vh;
   }
-  .login {
+  .login,
+  .Register {
     box-shadow: none;
   }
   .AuthenticationSection > section {
