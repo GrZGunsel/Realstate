@@ -27,6 +27,9 @@
   }
 }
 @media All and (max-width: 900px) {
+  .AuthenticationSection {
+    height: 90vh;
+  }
   .login {
     box-shadow: none;
   }
