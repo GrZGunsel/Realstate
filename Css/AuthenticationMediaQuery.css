@@ -1,12 +1,21 @@
-@media All and (max-width: 1366px) {
+@media All and (max-width: 1440px) {
   .AuthenticationSection > section {
     padding: 0 40px;
+  }
+  .Register .leftcontainer .bg-image > h1 {
+    font-size: 40px;
   }
 }
 
 @media All and (max-width: 1024px) {
+  .login .logincontainer > div:nth-child(2) {
+    height: auto;
+  }
+  .Register .Registercontainer > div:nth-child(1) {
+    height: auto;
+  }
   .AuthenticationSection > section {
-    padding: 0;
+    padding: 0 20px;
     height: 100%;
   }
   .AuthenticationSection > section > div > div > div {
@@ -20,6 +29,10 @@
   }
 }
 @media All and (max-width: 900px) {
+  .AuthenticationSection > section {
+    padding: 0;
+    height: 100%;
+  }
   .login .logincontainer .leftcontainer .form .createanaccount {
     display: flex;
     justify-content: center;
@@ -36,6 +49,30 @@
     height: 100%;
     width: 100%;
   }
+
+  .login .logincontainer > .leftcontainer .image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Register .leftcontainer .bg-image {
+    height: auto;
+  }
+  .Register .Registercontainer > div:nth-child(2) .image {
+    display: flex;
+    justify-content: center;
+  }
+  .Register .Registercontainer > div:nth-child(2) .image img {
+    height: 100px;
+    width: auto;
+  }
+  .Register .Registercontainer .rightcontainer .Signin {
+    display: flex;
+  }
+  .Register .Registercontainer > div:nth-child(1) {
+    display: none;
+  }
+
   .AuthenticationSection > section > div > div > div {
     height: 100vh !important;
   }
