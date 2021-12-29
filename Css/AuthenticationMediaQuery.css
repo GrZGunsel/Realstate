@@ -18,9 +18,7 @@
     padding: 0 20px;
     height: 100%;
   }
-  .AuthenticationSection > section > div > div > div {
-    height: 100% !important;
-  }
+
   .login .logincontainer > div:nth-child(1) {
     padding: 2rem;
   }
@@ -46,7 +44,7 @@
   }
   .login .logincontainer > div:nth-child(1) {
     padding: 0rem 20px;
-    height: 100%;
+    height: 100vh;
     width: 100%;
   }
 
@@ -74,7 +72,7 @@
   }
 
   .AuthenticationSection > section > div > div > div {
-    height: 100vh !important;
+    height: 100% !important;
   }
   .Register .Registercontainer > div:nth-child(2) {
     padding: 0rem 20px;
